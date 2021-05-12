@@ -121,6 +121,12 @@
                                     <li class="">
                                     	<a href="#">Контакты</a>
                                     </li>
+                                    <li>
+                                        <div style="float: right;">
+                                        <a style="padding: 5px;" class="btn btn-yellow" href="#" data-hystmodal="#modal">Бесплатная консультация</a>
+                                        <span style="text-align: center; margin: 0 auto; float: right; font-size: 25px; font-weight: 500; padding: 10px;">тел. 8(999)999-99-99</span>
+                                        </div>
+                                    </li>
                                 </ul>
                             </nav>	
     
@@ -235,7 +241,7 @@
                     	
                         <div class="icon-box-1">
                             
-                            <img src="assets/images/icon/production-plant.svg" style="max-width: 128px;" alt="">
+                            <img src="assets/images/icon/production-plant.svg" style="max-width: 64px;" alt="">
       
                             <div class="icon-box-content">
                             
@@ -257,7 +263,7 @@
                     	
                         <div class="icon-box-1">
                             
-                            <img src="assets/images/icon/trailer.svg" style="max-width: 128px;" alt="">
+                            <img src="assets/images/icon/trailer.svg" style="max-width: 64px;" alt="">
       
                             <div class="icon-box-content">
                             
@@ -279,7 +285,7 @@
                     	
                         <div class="icon-box-1">
                             
-                            <img src="assets/images/icon/painting-exhibit-in-fine-art-museum.svg" style="max-width: 128px;" alt="">
+                            <img src="assets/images/icon/painting-exhibit-in-fine-art-museum.svg" style="max-width: 64px;" alt="">
       
                             <div class="icon-box-content">
                             
@@ -1304,10 +1310,10 @@
         var myMap = new ymaps.Map("map", {
             // Координаты центра карты.
             // Порядок по умолчнию: «широта, долгота».
-            center: [55.76, 37.64],
+            center: [53.267071, 50.218744],
             // Уровень масштабирования. Допустимые значения:
             // от 0 (весь мир) до 19.
-            zoom: 12,
+            zoom: 16,
             // Элементы управления
             // https://tech.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/controls/standard-docpage/
             controls: [
@@ -1334,7 +1340,7 @@
  
         // Добавление метки
         // https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Placemark-docpage/
-        var myPlacemark = new ymaps.Placemark([55.76, 37.64], {
+        var myPlacemark = new ymaps.Placemark([53.267071, 50.218744], {
             // Хинт показывается при наведении мышкой на иконку метки.
             hintContent: 'Содержимое всплывающей подсказки',
             // Балун откроется при клике по метке.
