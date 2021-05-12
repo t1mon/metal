@@ -140,7 +140,7 @@
 	.sf-menu a {
 		display: block;
 		padding: 10px 0;
-		font: 14px 'Montserrat', sans-serif;
+		font: 14px 'Montserrat', sans-serif !important;
 		color: #212121; 
 		text-decoration: none;
 	}
