@@ -4,7 +4,12 @@
 
 /* =Accordion
    ========================================================================== */
-	
+	.span6 ul{
+		list-style-type: none;
+	}
+	.span6 ul>li{
+		margin-bottom: 15px;
+	}
 	.accordion { margin-bottom: 30px; }
 
 	.accordion-item {
